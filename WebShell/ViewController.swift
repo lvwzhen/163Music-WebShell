@@ -26,7 +26,7 @@ class ViewController: NSViewController, WebFrameLoadDelegate, WebUIDelegate, Web
     var SETTINGS: [String: Any]  = [
         
         // Url to browse to.
-        "url": "https://www.google.com",
+        "url": "http://music.163.com/",
         
         "title": NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String,
         
